@@ -1,0 +1,20 @@
+name: Aliyun Signin
+
+on:
+  schedule:
+    # 每天国际时间 20:30 运行一次, 中国时间 04:30
+    - cron: '30 20 * * *'
+  workflow_dispatch:
+jobs:
+  signin:
+    name: Aliyun Signin
+    runs-on: ubuntu-latest
+    steps:
+      - uses: ImYrS/aliyun-auto-signin@main
+        with:
+          REFRESH_TOKENS: ${{73448eed9a34454c8db05bf75c33e2ad}}
+          PUSH_TYPES: ''
+          SERVERCHAN_SEND_KEY: ${{ secrets.SERVERCHAN_SEND_KEY }}
+          TELEGRAM_BOT_TOKEN: ${{6067922139:AAGWiDl1bNtBp1Z2AHU-4KVNwPq4icZ_2xg}}
+          TELEGRAM_CHAT_ID: ${{-883465663}}
+          PUSHPLUS_TOKEN: ${{ secrets.PUSHPLUS_TOKEN }}
