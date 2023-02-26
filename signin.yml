@@ -15,6 +15,6 @@ jobs:
           REFRESH_TOKENS: ${{73448eed9a34454c8db05bf75c33e2ad}}
           PUSH_TYPES: ''
           SERVERCHAN_SEND_KEY: ${{ secrets.SERVERCHAN_SEND_KEY }}
-          TELEGRAM_BOT_TOKEN: ${{5890165165:AAFlAWKykCqbbyP3Sx--_chvF8ykqaX9hdk}}
+          TELEGRAM_BOT_TOKEN: ${{6067922139:AAGWiDl1bNtBp1Z2AHU-4KVNwPq4icZ_2xg}}
           TELEGRAM_CHAT_ID: ${{-883465663}}
           PUSHPLUS_TOKEN: ${{ secrets.PUSHPLUS_TOKEN }}
