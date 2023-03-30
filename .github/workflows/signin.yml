@@ -13,6 +13,7 @@ jobs:
       - uses: ImYrS/aliyun-auto-signin@main
         with:
           REFRESH_TOKENS: 73448eed9a34454c8db05bf75c33e2ad
+          GP_TOKEN: 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
           PUSH_TYPES: 'telegram'
           TELEGRAM_BOT_TOKEN: 6067922139:AAGWiDl1bNtBp1Z2AHU-4KVNwPq4icZ_2xg
           TELEGRAM_CHAT_ID: -883465663
