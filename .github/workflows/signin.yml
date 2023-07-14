@@ -12,7 +12,7 @@ jobs:
     steps:
       - uses: ImYrS/aliyun-auto-signin@main
         with:
-          REFRESH_TOKENS: ddfdedc6c40145c3bdad629da068b5ec
+          REFRESH_TOKENS: e623d91a06f64334b917bda4290e0cec
           PUSH_TYPES: 'telegram'
           TELEGRAM_BOT_TOKEN: 6067922139:AAGWiDl1bNtBp1Z2AHU-4KVNwPq4icZ_2xg
           TELEGRAM_CHAT_ID: -883465663
